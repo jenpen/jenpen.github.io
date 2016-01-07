@@ -1,7 +1,9 @@
+$main-font: "Happy Monkey", cursive;
+
 
 body {
   background: #6C685E;
-  font-family: helvetica;
+  font-family: $main-font;
   font-size: 1em;
   margin: 0;
   width: 100%;
