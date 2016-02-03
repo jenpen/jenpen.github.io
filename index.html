@@ -1,109 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>Jen Pengelly</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <body>
-
-  <!-- Header Section -->
-  <div class="wrapper">
-    <div class="header">
-      <!-- <a class="site_logo" href="/"></a> -->
-      <ul class="social_list">
-        <li>Facebook</li>
-        <li>LinkedIn</li>
-        <li>Twitter</li>
-        <li>Email</li>
-      </ul>
-    </div>
-
-    <div class="cover">
-      <h1>Jen Pengelly</h1>
-      <p class="cover_location">Washington, DC</p>
-      <p class="cover_desc">Web Developer. Bookworm. Saute Savant.</p>
-    </div>
-  </div>
-
-  <!-- About Section -->
-  <div class="about" id="about--anchor">
-    <p>My bio</p>
-  </div>
-
-  <!-- Projects Section to be included here -->
-
-
-  <!--  Experience Section -->
-  <div class="experience">
-    <p>find my resume
-      <p>
-        <h2>Experience</h2>
-        <ul class="experience_list">
-          <li>
-            <h3>Organic, Inc.</h3>
-            <p class="desc">Digital Project Manager, </p>
-            <p class="timeline">2014 &mdash;2015</p>
-          </li>
-          <li>
-            <h3>American Academy of Ophthalmology</h3>
-            <p class="desc">Program Manager, </p>
-            <p class="timeline">2014 &mdash;2015</p>
-          </li>
-          <li>
-            <h3>Jewish Community Federation</h3>
-            <p class="desc">Data Project Consultant, </p>
-            <p class="timeline">2010 &mdash;2011</p>
-          </li>
-          <li>
-            <h3>Third Way</h3>
-            <p class="desc">Digital Media and Events Manager, </p>
-            <p class="timeline">2008 &mdash;2010</p>
-          </li>
+  <!--  Navigation -->
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">JP</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About Jen</a></li>
+          <li><a href="#resume">Resume</a></li>
         </ul>
-        <h2>Education</h2>
-        <ul class="experience_list">
-          <li>
-            <h3>General Assembly</h3>
-            <p>Web Development Immersive, January 2016</p>
-          </li>
-          <li>
-            <h3>San Jose State University</h3>
-            <p class="desc">Master of Library and Information Science</p>
-            <p class="timeline">Graduated December 2013</p>
-          </li>
-          <li>
-            <h3>Texas A&amp;M University &mdash; Corpus Christi</h3>
-            <p class="desc">B.A. Economics, B.A. Political Science</p>
-            <p class="timeline">Graduated May 2007</p>
-          </li>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About Jen</a></li>
+          <li><a href="#resume">Resume</a></li>
         </ul>
-        <h2>Certifications</h2>
-        <ul class="experience_list">
-          <li>
-            <h3>DoubleClick Studio QA</h3>
-            <p class="desc">Google DoubleClick Studio</p>
-            <p class="timeline">July 2015</p>
-          </li>
-          <li>
-            <h3>Scrum Master</h3>
-            <p class="desc">Scrum Alliance</p>
-            <p class="timeline">March 2015</p>
-          </li>
-        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons ">menu</i></a>
       </div>
-      <!-- Next Section-->
-      <footer>
-      </footer>
-    </body>
+    </nav>
+  </div>
 
-    </html>
+  <!-- Parallax Container -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">Jen Pengelly</h1>
+        <div class="row center">
+        </div>
+        <div class="row center">
+          <a href="assets/pdf/Resume_Pengelly_Web.pdf" id="download-button" class="btn-large waves-effect waves-light blue-grey lighten-1">Download Resume</a>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/tea_cups.jpg" alt="Cups of Tea"></div>
+  </div>
+
+  <!-- Social Container -->
+  <div class="container">
+    <a name="social"></a>
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m12">
+          <ul class="center">
+            <li class="social-icons"><a href="https://github.com/jenpen" target="_blank"><img src="assets/images/github.png" alt="Github"  ></a></li>
+            <li class="social-icons"><a href="https://www.linkedin.com/in/jenpengelly" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn"></a></li>
+            <li class="social-icons"><a href="https://www.facebook.com/" target="_blank"><img src="assets/images/facebook.png" alt="Facebook"></a></li>
+            <li class="social-icons"><a href="https://twitter.com/jenpengelly" target="_blank"><img src="assets/images/twitter.png" alt="Twitter"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Container -->
+  <a name="projects"></a>
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <h2 class="center grey-text">Projects</h2>
+        <div class="row">
+          <div class="col s12 m12">
+            <div class="card z-depth-3">
+              <div class="card-image">
+                <img src="assets/images/thirdsty_thurs.png">
+              </div>
+              <div class="card-content">
+                <p>Built with Ruby on Rails and supplemented with jQuery plug-ins, <strong>Thirdsty Thursday</strong> is a social networking tool that connects graduates of Washington, DC’s General Assembly with cohort events. Styling completed using Materialize CSS library.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://thirdsty-thursdays.herokuapp.com/">Checkout the App</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <div class="card z-depth-3">
+              <div class="card-image">
+                <img src="assets/images/rembr.png">
+              </div>
+              <div class="card-content">
+                <p>Built with Express as a collaborative project, <strong>Rembr</strong> allows users to pin a personal perspective of a place based on their location and to view other pins placed on the map. Uses Leaflet and Mapbox.com to render geographic data, and styled with Bootstrap.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://rembr.herokuapp.com/">Checkout the App</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12">
+            <div class="card z-depth-3">
+              <div class="card-image">
+                <img src="assets/images/daily_scrum.png">
+              </div>
+              <div class="card-content">
+                <p>Built in Ruby on Rails and styled with Bootstrap, <strong>Daily Scrum</strong> gives remote teams a central board to look at for daily scrums. Team members can create note cards for daily scrum meeting over the course of a project sprint.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://pengelly-daily-scrum-board.herokuapp.com/">Checkout the App</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Parallax Container -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/tea_leaves.jpg" alt="Jasmine Tea Leaves"></div>
+  </div>
+
+  <!-- About Jen -->
+  <a name="about"></a>
+  <div class="container">
+    <div class="section">
+      <h2 class="center grey-text">About Jen</h2>
+      <div class="row">
+        <div class="col s12 center">
+          <p class="left-align light">Originally from Texas, I got my start in tech as a Digital Media manager for a think tank. I spent the past five years in San Francisco, and am returning to Washington, excited about the tech scene and the tight-knit community I've found here. As a digital project manager, I had the opportunity to work on world-class brands and with world-class talent to develop creative and technical solutions to digital needs from website redesigns to online marketing campaigns. I've also had the opportunity to run scrum projects and develop an abiding passion for the agile process.<p>
+
+            <p class="left-align light">My time as a newbie web dev really took off when I joined General Assembly. Focusing on Ruby on Rails and Javascript frameworks, I spent twelve tireless weeks working with an amazing group of people learning new skills.</p>
+
+            <p class="left-align light">I enjoy spending time with my awesome husband and our cats. I'm passionate about coding and love learning about new technologies. When I'm away from the computer, you'll find me brewing a great cup of tea, reading a book, or cooking stuff up and creating my own recipes.  Weekends find me biking, reading, going to the movies, and combing through farmer's markets.</p>
+
+            <h4 class="grey-text">My 5 Truths</h4>
+            <ol class="left-align light">
+              <li>Always be a little kinder than necessary.</li>
+              <li>An honest conversation is usually step one in solving a problem.</li>
+              <li>When we strive to become better, we make the world around us better.</li>
+              <li>Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.</li>
+              <li>Creating something is all about problem-solving.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parallax Container -->
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light"></h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="assets/images/tea_pot.jpg" alt="Tea Kettle"></div>
+    </div>
+
+    <!-- Resume -->
+    <footer class="page-footer blue-grey darken-1">
+      <a name="resume"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col l12 s12">
+            <h4 class="white-text center">Resume</h4>
+            <p class="white-text">Web developer with a background in digital project management, I am an enthusiastic teammate who cares about the collaborative process. Resilient and driven, I thrive on solving problems and improving through iteration. Seeking a positive and peer-oriented culture where I can grow professionally and take on interesting challenges.</p>
+          </div>
+          <div class="col l12 s12">
+            <h4 class="white-text center">Experience</h4>
+            <ul>
+              <li>
+                <h5 class="white-text">Organic, Inc.</h5>
+                <p class="white-text">Digital Project Manager,  September 2014&mdash;September 2015</p>
+              </li>
+              <li>
+                <h5 class="white-text">American Academy of Ophthalmology</h3>
+                  <p class="white-text">Program Manager, May 2013&mdash;September 2014</p>
+                </li>
+                <li>
+                  <h5 class="white-text">Jewish Community Federation</h5>
+                  <p class="white-text">Data Project Consultant, October 2010&mdash;October 2011</p>
+                </li>
+                <li>
+                  <h5 class="white-text">Third Way</h3>
+                    <p class="white-text">Digital Media and Events Manager, March 2008&mdash;September 2010</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col l12 s12">
+                <h4 class="white-text center">Education</h4>
+                <ul>
+                  <li class="white-text">
+                    <h5>General Assembly</h5>
+                    <p>Web Development Immersive :: October 2015&mdash;January 2016</p>
+                  </li>
+                  <li class="white-text">
+                    <h5>San Jose State University</h5>
+                    <p>Master of Library and Information Science :: Graduated December 2013</p>
+                  </li>
+                  <li class="white-text">
+                    <h5>Texas A&amp;M University &mdash; Corpus Christi</h5>
+                    <p class="desc">B.A. Economics, B.A. Political Science :: Graduated May 2007</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              <a href="assets/pdf/Resume_Pengelly_Web.pdf" id="download-button" class="btn-large waves-effect waves-light blue-grey lighten-1">Download Resume</a>
+            </div>
+          </div>
+        </footer>
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+
+      </body>
+      </html>
