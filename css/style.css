@@ -41,10 +41,6 @@ p {
   padding-right: 2%;
 }
 
-.name {
-  padding-top: 20px;
-}
-
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
